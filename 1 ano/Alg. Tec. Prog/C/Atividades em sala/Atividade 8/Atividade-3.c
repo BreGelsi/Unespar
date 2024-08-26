@@ -6,31 +6,31 @@ void abertura(){
     printf("Ola, vamos calcular a distancia entre dois pontos\n");
 }
 
-void dadosConta(int *x1, int *y1, int *x2, int *y2){
+void dadosConta(float *x1, float *y1, float *x2, float *y2){
     printf("Digite o valor de x1: ");
-    scanf("%d", x1);
+    scanf("%f", x1);
     printf("Digite o valor de y1: ");
-    scanf("%d", y1);
+    scanf("%f", y1);
     printf("Digite o valor de x2: ");
-    scanf("%d", x2);
+    scanf("%f", x2);
     printf("Digite o valor de y2: ");
-    scanf("%d", y2);
+    scanf("%f", y2);
 }
 
-void distancia(int x1, int y1, int x2, int y2, float* distanciaT){
+void distancia(float x1, float y1, float x2, float y2, float* distanciaT){
     *distanciaT = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 }
 
-void fechamento(int x1, int y1, int x2, int y2, float distanciaT){
+void fechamento(float x1, float y1, float x2, float y2, float distanciaT){
     printf("Apos a analise dos pontos temos os seguintes dados:\n");
-    printf("X1 = %d | Y1 = %d\n", x1, y1);
-    printf("X2 = %d | Y2 = %d\n", x2, y2);
+    printf("X1 = %.2f | Y1 = %.2f\n", x1, y1);
+    printf("X2 = %.2f | Y2 = %.2f\n", x2, y2);
     printf("Distancia = %.2f\n", distanciaT);
 }
 
 int main(){
     abertura();
-    int x1, y1, x2, y2;
+    float x1, y1, x2, y2;
     dadosConta(&x1, &y1, &x2, &y2);
     float distanciaT = 0;
     distancia(x1, y1, x2, y2, &distanciaT);
