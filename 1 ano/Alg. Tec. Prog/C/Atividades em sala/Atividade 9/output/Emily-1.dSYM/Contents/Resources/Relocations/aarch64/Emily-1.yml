@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/brenogelsibarros/Documents/Faculdade/1 ano/Alg. Tec. Prog/C/Atividades em sala/Atividade 9/output/Emily-1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _abertura, symObjAddr: 0x0, symBinAddr: 0x100003CDC, symSize: 0x1C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _abertura, symObjAddr: 0x0, symBinAddr: 0x100003CDC, symSize: 0x1C }
+  - { offsetInCU: 0x56, offset: 0x56, size: 0x8, addend: 0x0, symName: _notasAlunos, symObjAddr: 0x1C, symBinAddr: 0x100003CF8, symSize: 0x17C }
+  - { offsetInCU: 0xC0, offset: 0xC0, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x198, symBinAddr: 0x100003E74, symSize: 0x3C }
+...
