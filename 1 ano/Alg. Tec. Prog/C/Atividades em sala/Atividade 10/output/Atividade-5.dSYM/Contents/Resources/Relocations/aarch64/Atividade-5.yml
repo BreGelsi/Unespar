@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/brenogelsibarros/Documents/Faculdade/1 ano/Alg. Tec. Prog/C/Atividades em sala/Atividade 10/output/Atividade-5'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _abertura, symObjAddr: 0x0, symBinAddr: 0x100003CC4, symSize: 0x28 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _abertura, symObjAddr: 0x0, symBinAddr: 0x100003CC4, symSize: 0x28 }
+  - { offsetInCU: 0x56, offset: 0x56, size: 0x8, addend: 0x0, symName: _dados, symObjAddr: 0x28, symBinAddr: 0x100003CEC, symSize: 0x40 }
+  - { offsetInCU: 0x7A, offset: 0x7A, size: 0x8, addend: 0x0, symName: _converteHora, symObjAddr: 0x68, symBinAddr: 0x100003D2C, symSize: 0x74 }
+  - { offsetInCU: 0xC8, offset: 0xC8, size: 0x8, addend: 0x0, symName: _fechamento, symObjAddr: 0xDC, symBinAddr: 0x100003DA0, symSize: 0x64 }
+  - { offsetInCU: 0x108, offset: 0x108, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x140, symBinAddr: 0x100003E04, symSize: 0x58 }
+...
