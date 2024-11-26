@@ -1,0 +1,15 @@
+Numero: 12
+Nome: Brena
+Curso: COMP
+Nota 1: 8.00
+Nota 2: 9.00
+Numero: 10
+Nome: Joao
+Curso: CCOMP
+Nota 1: 3.00
+Nota 2: 4.00
+Numero: 13
+Nome: mILA
+Curso: COOMP
+Nota 1: 22.00
+Nota 2: 3.00
